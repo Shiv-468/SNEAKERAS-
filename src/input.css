@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menulist.show {
+    right: 0px;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+    transition: all 300ms linear;
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(2px) rotate(-45deg);
+    transition: all 300ms linear;
+}
+.active{
+    border-bottom: 3px solid #FF0000;
+    color: #FF0000;
+}
+.stylecard{
+    border: 1px solid #E0E0E0;
+    border-radius: 17px;
+    margin-bottom: 24px;
+ max-width: 312px;
+}
+.cardfirst{
+ max-width: 312px;
+ box-shadow: 23px 44px 47px 0px #00000033;
+border-radius: 10px;
+}
