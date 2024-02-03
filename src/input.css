@@ -36,3 +36,6 @@
  box-shadow: 23px 44px 47px 0px #00000033;
 border-radius: 10px;
 }
+.hover-eff:hover{
+    -webkit-text-stroke: 1px black;
+}
